@@ -1,0 +1,17 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.2",
+  "description": "es una simple tabla de multiplicar que crea el archivo con la tabla",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3",
+    "limite": "node app --limite=10"
+  },
+  "author": "Carlos García",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.3.1"
+  }
+}
